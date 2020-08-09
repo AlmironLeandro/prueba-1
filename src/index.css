@@ -1,0 +1,52 @@
+
+body
+{
+  padding: 0;
+  margin: 0;
+  background: url('./Imagenes/fondo.jpg');
+  color:white;
+}
+  /* ESTILOS CABEZERA */
+  .cabezera
+  {
+    /* border-style: solid; */
+    width: 96%;
+    height: 25%;
+    position: absolute;
+    text-align: center;
+  }
+  h1{
+    
+  }
+
+  /* Barra-redes-sociales */
+
+  .barra-redes-sociales
+  {
+    height: 100%;
+    right: 0%;
+    align-items: center;
+    position: absolute;
+  }
+  .iconos
+  {
+    padding-top: 500%;
+  }
+  a:hover
+  {
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+  }
+
+  /* About me */
+  .contenedor_aboutMe
+  {
+    position: absolute;
+    
+  }
+  .aboutme
+  {
+    display: flex;
+
+  }
+  
+  
